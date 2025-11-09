@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Playwright Browsers
+        run: npx playwright install
+
       - name: Run scrape script (23f3001900@ds.study.iitm.ac.in)
         run: npm run scrape
