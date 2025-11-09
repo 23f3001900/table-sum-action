@@ -1,0 +1,10 @@
+{
+  "name": "table-sum-action",
+  "version": "1.0.0",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.43.0"
+  }
+}
