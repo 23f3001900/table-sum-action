@@ -25,6 +25,6 @@ const urls = seeds.map(seed => `https://example.com/seed-${seed}`); // Replace w
     }
   }
 
-  console.log(`TOTAL SUM: ${total}`);
+  console.log(`ANSWER: ${total}`);
   await browser.close();
 })();
